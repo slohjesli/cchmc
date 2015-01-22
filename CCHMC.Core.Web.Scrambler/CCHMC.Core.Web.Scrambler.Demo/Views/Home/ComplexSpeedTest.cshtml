@@ -1,0 +1,11 @@
+﻿@model CCHMC.Core.Web.Scrambler.Demo.Models.SpeedResults
+
+@{
+    ViewBag.Title = "ComplexSpeedTest";
+}
+
+<h2>Complex Speed Test</h2>
+
+<div>Number of executions : @Model.NumberOfExecutions</div>
+<div>Time elapsed for unobfuscated retrieval : @Model.UnobfuscatedTime</div>
+<div>Time elapsed for obfuscated retrieval : @Model.ObfuscatedTime</div>

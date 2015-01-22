@@ -1,0 +1,48 @@
+﻿@model CCHMC.Core.Web.Scrambler.Demo.Models.DisplayAttributeTest
+
+@{
+    ViewBag.Title = "Demo";
+}
+
+<h2>Demo</h2>
+
+<div>
+    Thing 1:
+    @Model.thing1
+</div>
+
+<div>
+    DisplayFor Thing 1:
+    @Html.DisplayFor(t => t.thing1)
+</div>
+@String.Format("{0}-scramble", Model.thing1)
+
+<div>
+    Thing 2:
+    @Model.thing2
+</div>
+
+<div>
+    DisplayFor Thing 2:
+    @Html.DisplayFor(t => t.thing2)
+</div>
+@String.Format("{0}-scramble", Model.thing2)
+
+<div>
+    Temporal:
+    @Model.temporal
+</div>
+
+<div>
+    DisplayFor Temporal:
+    @Html.DisplayFor(t => t.temporal)
+</div>
+
+<div onclick="getdata()">
+    Click Here
+</div>
+<script type="text/javascript">
+    function getdata() {
+
+    }
+</script>

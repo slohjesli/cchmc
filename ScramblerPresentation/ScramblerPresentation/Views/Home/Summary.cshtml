@@ -1,0 +1,23 @@
+﻿@model ScramblerPresentation.Models.IndexClass
+
+<h2 style="text-align:center;">@Model.Name</h2>
+
+<div style="float:left; height:600px; overflow-y:scroll; border:1px solid black; border-right: none;">
+    @foreach (var obj in Model.Externals)
+    {
+        @Html.Partial("_External", obj)
+    }
+</div>
+<div style="float:left; height:600px; overflow-y:scroll; border-top:1px solid black; border-bottom: 1px solid black;">
+    @foreach (var obj in Model.Internals)
+    {
+        @Html.Partial("_Internal", obj)
+    }
+</div>
+<div style="float:left; height:600px; overflow-y:scroll; border:1px solid black; border-left: none;">
+    @foreach (var obj in Model.Alts)
+    {
+        @Html.Partial("_Alts", obj)
+    }
+</div>
+<div style="clear:both;"></div>

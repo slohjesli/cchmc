@@ -1,0 +1,5 @@
+C:\Users\ellk4m\documents\visual studio 2013\Projects\ScramblerPresentation\ExternalLibrary\bin\Debug\ExternalLibrary.dll
+C:\Users\ellk4m\documents\visual studio 2013\Projects\ScramblerPresentation\ExternalLibrary\bin\Debug\ExternalLibrary.pdb
+C:\Users\ellk4m\documents\visual studio 2013\Projects\ScramblerPresentation\ExternalLibrary\obj\Debug\ExternalLibrary.csprojResolveAssemblyReference.cache
+C:\Users\ellk4m\documents\visual studio 2013\Projects\ScramblerPresentation\ExternalLibrary\obj\Debug\ExternalLibrary.dll
+C:\Users\ellk4m\documents\visual studio 2013\Projects\ScramblerPresentation\ExternalLibrary\obj\Debug\ExternalLibrary.pdb
